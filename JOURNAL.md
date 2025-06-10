@@ -11,7 +11,7 @@ created_at: "2025-06-09"
 
 - Finished V1 Schematic
 
-![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-09-15-15-15-image.png)
+![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-09%20151724.png)
 
 **Time Spent: 3h**
 
@@ -19,9 +19,9 @@ created_at: "2025-06-09"
   
   Cost around $10
 
-  ![Screenshot 2025-06-09 194901.png](E:\Projects\BeanPad\Project%20Images\Screenshot%202025-06-09%20194901.png)
+  ![Screenshot 2025-06-09 194901.png](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-09%20194901.png)
 
-  ![Screenshot 2025-06-09 194925.png](E:\Projects\BeanPad\Project%20Images\Screenshot%202025-06-09%20194925.png)
+  ![Screenshot 2025-06-09 194925.png](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-09%20194925.png)
 
 **Time Spent: 3h**
 
