@@ -11,15 +11,15 @@ created_at: "2025-06-09"
 
 - I finished the first version of the main module schematic
 
-![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-09-15-15-15-image.png)
+![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-09%20151724.png)
 
 **Time Spent: 3h**
 
 - I finished the PCB took a pretty long time relaxing though.
 
-  ![Screenshot 2025-06-09 194901.png](E:\Projects\BeanPad\Project%20Images\Screenshot%202025-06-09%20194901.png)
+  ![Screenshot 2025-06-09 194901.png](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-09%20194901.png)
 
-  ![Screenshot 2025-06-09 194925.png](E:\Projects\BeanPad\Project%20Images\Screenshot%202025-06-09%20194925.png)
+  ![Screenshot 2025-06-09 194925.png](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-09%20194925.png)
 
 **Time Spent: 3h**
 
