@@ -5,6 +5,169 @@
 	(uuid "0fada3d2-b91b-45d1-ab99-8eb3053f21b6")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Conn_Pogo:Male_Pogo_Connector_01x05"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Male_Pogo_Connector_01x05"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_Pogo:male_only_connector_5pin"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Male_Pogo_Connector_01x05_1_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 3.81)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin power_in line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "DATA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -6.35 180)
+					(length 2.54)
+					(name "AUX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016)
@@ -244,297 +407,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x05_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05_Socket"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -0.508 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 4.572)
-					(mid -0.5058 5.08)
-					(end 0 5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2147,16 +2019,6 @@
 		)
 		(uuid "0142fd89-373f-4990-9e50-e6eb12310f50")
 	)
-	(label "INT"
-		(at 232.41 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0834cda6-19c3-49be-86e2-392ec0751287")
-	)
 	(label "SCL"
 		(at 111.76 99.06 180)
 		(effects
@@ -2176,16 +2038,6 @@
 			(justify right bottom)
 		)
 		(uuid "0bfd2de3-c15d-40d3-a8ca-3bad138d0aa2")
-	)
-	(label "SDA"
-		(at 229.87 121.92 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f4a400b-f8d2-4e46-b93f-ffe82a0e058e")
 	)
 	(label "SDA"
 		(at 111.76 95.25 180)
@@ -2217,6 +2069,16 @@
 		)
 		(uuid "15c5c1dd-bcb2-4339-a5f5-d42173771aef")
 	)
+	(label "INT"
+		(at 257.81 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15eda605-af0f-4355-94ca-192508ec6579")
+	)
 	(label "GPIO27"
 		(at 111.76 83.82 180)
 		(effects
@@ -2227,15 +2089,15 @@
 		)
 		(uuid "26607fa5-210f-49d3-9000-662db2105039")
 	)
-	(label "SCL"
-		(at 227.33 63.5 90)
+	(label "INT"
+		(at 257.81 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3e6ff796-f89b-46ea-823b-97bff36c2da5")
+		(uuid "31a70d3d-3934-4ad3-8e76-6477bd7c4a09")
 	)
 	(label "GPIO1"
 		(at 165.1 102.87 0)
@@ -2257,35 +2119,15 @@
 		)
 		(uuid "4d3b9534-be05-4d8a-86a8-a2939f352377")
 	)
-	(label "INT"
-		(at 232.41 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "565eb905-20b5-45b2-8c46-c6195148f239")
-	)
 	(label "SDA"
-		(at 229.87 63.5 90)
+		(at 247.65 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "591e9b51-667f-4b17-80ae-cf8c00368e19")
-	)
-	(label "SCL"
-		(at 227.33 121.92 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5bd176b0-9484-4e39-b2a1-dc1eac9c9634")
+		(uuid "5a4bb40c-dc16-43aa-967f-8737c75a8636")
 	)
 	(label "SDA"
 		(at 160.02 132.08 180)
@@ -2297,6 +2139,16 @@
 		)
 		(uuid "60c2cff8-ef5c-4140-8b14-d430e83db84b")
 	)
+	(label "SDA"
+		(at 247.65 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "64de23df-a759-4b9a-84ba-db97ac74a2a3")
+	)
 	(label "GPIO26"
 		(at 52.07 80.01 0)
 		(effects
@@ -2307,6 +2159,16 @@
 		)
 		(uuid "6766bc52-5ce9-44e4-9af4-333a32a7429a")
 	)
+	(label "SCL"
+		(at 247.65 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6929f97e-c994-4198-951c-6f714ae1e84c")
+	)
 	(label "GPIO0"
 		(at 111.76 102.87 180)
 		(effects
@@ -2316,6 +2178,16 @@
 			(justify right bottom)
 		)
 		(uuid "6eb2e3a9-a92c-4790-b615-2f796f442245")
+	)
+	(label "SCL"
+		(at 247.65 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77d2b666-b743-4719-8d35-f069ddbd19bf")
 	)
 	(label "GPIO3"
 		(at 165.1 91.44 0)
@@ -2337,35 +2209,35 @@
 		)
 		(uuid "c156ca03-1ae5-404c-b49e-3db805d253be")
 	)
-	(label "INT"
-		(at 232.41 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9e93747-49ff-4f0f-9ca9-c1f8f1d536f4")
-	)
 	(label "SDA"
-		(at 229.87 93.98 90)
+		(at 247.65 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "cf11e22f-5609-4e09-b255-3fe8519f8645")
+		(uuid "ce7518ba-d14d-4581-8885-a66a9f1c5a51")
 	)
 	(label "SCL"
-		(at 227.33 93.98 90)
+		(at 247.65 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb1fa132-ae79-4f8c-b2b3-c6eb80fb285a")
+	)
+	(label "INT"
+		(at 257.81 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e2c86003-261e-4a24-afae-cf514944b6e8")
+		(uuid "eda5f91f-027f-40db-8bf8-c6c0d6bc6362")
 	)
 	(label "GPIO28"
 		(at 111.76 87.63 180)
@@ -2398,34 +2270,33 @@
 		(uuid "f9dbe538-ec4e-48ac-8d30-efd3c39cd9b4")
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 224.79 121.92 0)
+		(lib_id "Conn_Pogo:Male_Pogo_Connector_01x05")
+		(at 252.73 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "06694a31-ef46-4bfd-ac94-40733c449bcf")
-		(property "Reference" "#PWR014"
-			(at 224.79 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 224.79 116.84 0)
+		(uuid "0887aff1-07c0-4166-b363-5a874d713edd")
+		(property "Reference" "J5"
+			(at 252.73 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 224.79 121.92 0)
+		(property "Value" "Male_Pogo_Connector_01x05"
+			(at 252.73 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Conn_Pogo:male_only_connector_5pin_Version3"
+			(at 252.73 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 121.92 0)
+			(at 252.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,88 +2313,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 224.79 121.92 0)
+		(property "Description" ""
+			(at 252.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "5"
+			(uuid "3a9eaf53-3205-47b1-815c-d43b3c69480f")
+		)
+		(pin "3"
+			(uuid "6ae97076-9599-4e95-ac9d-d7157602a63d")
+		)
+		(pin "4"
+			(uuid "563dbfbf-0b0c-4513-9b5d-07dabe7c2acf")
+		)
+		(pin "2"
+			(uuid "625dc65c-38a3-4bdb-896c-39e7e4402c4e")
 		)
 		(pin "1"
-			(uuid "ce92af63-3222-4396-93c0-f4ef8f582fdf")
+			(uuid "6b4533da-5c23-44bb-a36d-71e9bca63d03")
 		)
 		(instances
-			(project "BeanPad"
+			(project ""
 				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 224.79 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0757beef-3440-42bc-8f86-f1af0ba2d03c")
-		(property "Reference" "#PWR03"
-			(at 224.79 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 224.79 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 224.79 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32d762dd-a6ab-4dc8-9a2a-30034be6541e")
-		)
-		(instances
-			(project "BeanPad"
-				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
-					(reference "#PWR03")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2597,34 +2414,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 224.79 93.98 0)
+		(lib_id "Conn_Pogo:Male_Pogo_Connector_01x05")
+		(at 252.73 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1a3ef8b8-7e74-4310-8a6e-95e7c29c254d")
-		(property "Reference" "#PWR012"
-			(at 224.79 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 224.79 88.9 0)
+		(uuid "25c2f574-7603-4558-9daf-ca84ae55752d")
+		(property "Reference" "J1"
+			(at 252.73 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 224.79 93.98 0)
+		(property "Value" "Male_Pogo_Connector_01x05"
+			(at 252.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Conn_Pogo:male_only_connector_5pin_Version3"
+			(at 252.73 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2633,7 +2449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 93.98 0)
+			(at 252.73 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,88 +2457,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 224.79 93.98 0)
+		(property "Description" ""
+			(at 252.73 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "5"
+			(uuid "a8d69d54-e2cc-4901-9201-65db4d81c0cd")
+		)
+		(pin "3"
+			(uuid "bf4fb6a4-5bf7-4822-b9a0-23ba06254056")
+		)
+		(pin "4"
+			(uuid "ef8cea5e-4601-4180-809c-c9e05c31d908")
+		)
+		(pin "2"
+			(uuid "87e8c845-02df-47a4-9f25-e8b7cb34f724")
 		)
 		(pin "1"
-			(uuid "51f1bb91-5abc-4f7c-9342-5f3a9f315f81")
+			(uuid "f704f81d-398f-4a85-b23a-7025c0908d10")
 		)
 		(instances
 			(project "BeanPad"
 				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 222.25 121.92 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "343b7668-81d3-4cf3-a017-4b2ac574a2a8")
-		(property "Reference" "#PWR013"
-			(at 222.25 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4348d7fb-8ea1-4640-a0b6-913fe16d3fbb")
-		)
-		(instances
-			(project "BeanPad"
-				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
-					(reference "#PWR013")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2865,6 +2627,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 247.65 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b7fcf8b-397c-478b-844e-4ab62a25aa8f")
+		(property "Reference" "#PWR012"
+			(at 241.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d95ab7a3-bfc8-4bca-8142-030480f7422a")
+		)
+		(instances
+			(project "BeanPad"
+				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 165.1 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2991,6 +2820,73 @@
 			(project ""
 				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 247.65 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f801516-fa80-49ea-8238-3bb96c1aee6a")
+		(property "Reference" "#PWR016"
+			(at 241.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27887e61-6e7b-4ac6-87a9-275466fbc60d")
+		)
+		(instances
+			(project "BeanPad"
+				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3130,72 +3026,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 222.25 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73f75263-6e8f-4acb-8ffe-07fa95384428")
-		(property "Reference" "#PWR011"
-			(at 222.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ece87baf-5af4-4f96-aec9-c98c1ac5603e")
-		)
-		(instances
-			(project "BeanPad"
-				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:SK6812MINI")
 		(at 138.43 41.91 0)
 		(unit 1)
@@ -3272,33 +3102,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 227.33 68.58 270)
+		(lib_id "power:VCC")
+		(at 247.65 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9ad06095-4a5d-4150-82d8-350af6d3cd0d")
-		(property "Reference" "J1"
-			(at 227.33 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Socket"
-			(at 227.33 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Pogo:male_only_connector"
-			(at 227.33 68.58 0)
+		(uuid "9ae01186-9f27-4648-b1d2-0988f73e5231")
+		(property "Reference" "#PWR015"
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,8 +3120,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 227.33 68.58 0)
+		(property "Value" "VCC"
+			(at 243.84 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,8 +3138,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 227.33 68.58 0)
+		(property "Datasheet" ""
+			(at 247.65 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 247.65 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3325,24 +3157,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "56345d7e-474f-4c8c-91a1-c61bb779f588")
-		)
-		(pin "5"
-			(uuid "cca1f532-b516-476a-b916-88739bb9c9bc")
-		)
-		(pin "4"
-			(uuid "9c2ed071-7365-46a6-aa65-bddc045682c2")
-		)
-		(pin "3"
-			(uuid "19d0974a-21e5-4469-a8ca-0974dc3888c9")
-		)
-		(pin "2"
-			(uuid "3beaea54-29c7-4d8f-a3dc-315ba252a778")
+			(uuid "5f7d932c-1dd0-449e-957a-3f083799d02a")
 		)
 		(instances
-			(project ""
+			(project "BeanPad"
 				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
-					(reference "J1")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3417,33 +3237,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 227.33 99.06 270)
+		(lib_id "power:GND")
+		(at 247.65 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9e9c2926-6d6d-4f53-b81f-c85407389c2f")
-		(property "Reference" "J3"
-			(at 227.33 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Socket"
-			(at 227.33 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Pogo:male_only_connector"
-			(at 227.33 99.06 0)
+		(uuid "ab710b6c-ea7d-441f-81d1-e5e16b53163a")
+		(property "Reference" "#PWR04"
+			(at 241.3 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,8 +3255,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 227.33 99.06 0)
+		(property "Value" "GND"
+			(at 243.84 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,8 +3273,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 227.33 99.06 0)
+		(property "Datasheet" ""
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,24 +3292,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1180ef9a-bc4c-4531-b8ef-b9b2b5ef1116")
-		)
-		(pin "5"
-			(uuid "48d3e0f6-f8fe-4021-82da-e0e85fda48c2")
-		)
-		(pin "4"
-			(uuid "5636e926-c012-4982-8005-5a29edef12f0")
-		)
-		(pin "3"
-			(uuid "5e34a5d5-cdbb-4bb6-a79e-b0f5128e106a")
-		)
-		(pin "2"
-			(uuid "3b219c21-17e1-45bd-9825-0dd1063f9c6d")
+			(uuid "c6a0580d-da57-4738-bbe5-70a820efdda7")
 		)
 		(instances
 			(project "BeanPad"
 				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
-					(reference "J3")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3571,6 +3381,73 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 247.65 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2edd277-2d56-4743-84f6-4de0d16aa7ea")
+		(property "Reference" "#PWR011"
+			(at 251.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 243.84 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 247.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0204be2-a174-435e-bb7b-1f40590b125d")
+		)
+		(instances
+			(project "BeanPad"
+				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 165.1 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3637,34 +3514,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 222.25 63.5 180)
+		(lib_id "Conn_Pogo:Male_Pogo_Connector_01x05")
+		(at 252.73 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bef09738-21c4-47b1-9782-8eb738d00b38")
-		(property "Reference" "#PWR04"
-			(at 222.25 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 58.42 0)
+		(uuid "caec4911-f813-4dca-9b4c-08e5ee6404bb")
+		(property "Reference" "J3"
+			(at 252.73 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 222.25 63.5 0)
+		(property "Value" "Male_Pogo_Connector_01x05"
+			(at 252.73 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Conn_Pogo:male_only_connector_5pin_Version3"
+			(at 252.73 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +3549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 63.5 0)
+			(at 252.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,22 +3557,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 63.5 0)
+		(property "Description" ""
+			(at 252.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "5"
+			(uuid "42c5b66b-0744-457c-ae5b-72d993fd68ab")
+		)
+		(pin "3"
+			(uuid "aeec690c-9d60-4296-8227-f433d65f7782")
+		)
+		(pin "4"
+			(uuid "7c6be68a-01ba-49e6-8dab-201e45d67f62")
+		)
+		(pin "2"
+			(uuid "5be92ce5-c46f-4229-bfd1-4d8426ce5692")
 		)
 		(pin "1"
-			(uuid "e704f240-f4cb-4658-a5f0-30eff5d3d6ab")
+			(uuid "d8bc0ea2-57e1-4e5f-b7b3-2c46b9c5ca9a")
 		)
 		(instances
 			(project "BeanPad"
 				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
-					(reference "#PWR04")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3769,83 +3657,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 227.33 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf1d385d-4294-422a-8148-672e9d757dd4")
-		(property "Reference" "J4"
-			(at 227.33 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Socket"
-			(at 227.33 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Pogo:male_only_connector"
-			(at 227.33 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 227.33 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4004269b-2c5d-40b1-9ae6-16f7072665c6")
-		)
-		(pin "5"
-			(uuid "a6c50e29-5607-4af2-a918-5620a0b6c951")
-		)
-		(pin "4"
-			(uuid "83d107f4-1cb1-4ee2-9b34-b214a80f313f")
-		)
-		(pin "3"
-			(uuid "9443f965-28c8-4594-9f8a-51718a297642")
-		)
-		(pin "2"
-			(uuid "610e04ca-86c0-4a1d-9f61-be95f75919cd")
-		)
-		(instances
-			(project "BeanPad"
-				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Seeed-Studio-Xiao:XIAO-RP2040-DIP")
 		(at 124.46 74.93 0)
 		(unit 1)
@@ -3871,7 +3682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:MOUDLE14P-XIAO-DIP-SMD"
+		(property "Footprint" "Module:XIAO-RP2040-DIP"
 			(at 138.938 107.188 0)
 			(effects
 				(font
@@ -4012,6 +3823,73 @@
 			(project "BeanPad"
 				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 247.65 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eef3bc41-b2bf-4041-8de7-2c40546f112c")
+		(property "Reference" "#PWR03"
+			(at 251.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 243.84 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 247.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af159341-d05e-4619-908d-66ef36e0044a")
+		)
+		(instances
+			(project "BeanPad"
+				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

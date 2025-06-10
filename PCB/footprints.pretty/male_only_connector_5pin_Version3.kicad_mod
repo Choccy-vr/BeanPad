@@ -1,0 +1,33 @@
+(footprint "male_only_connector_5pin" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "1x5 male pogo connector for modular macropad")
+  (tags "pogo connector modular 1x5")
+  (property "Reference" "J**" (at 0 -4.5 0) (layer "F.SilkS"))
+  (property "Value" "Male_Pogo_01x05" (at 0 4.5 0) (layer "F.Fab"))
+  (property "Footprint" "Connector_Pogo:male_only_connector_5pin" (at 0 0 0) (layer "F.Fab") hide)
+  
+  # 5 male pogo pins in 1x5 configuration - 2.54mm pitch
+  (pad "1" thru_hole rect (at -5.08 0 0) (size 1.7 1.7) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "2" thru_hole circle (at -2.54 0 0) (size 1.5 1.5) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "3" thru_hole circle (at 0 0 0) (size 1.5 1.5) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "4" thru_hole circle (at 2.54 0 0) (size 1.5 1.5) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "5" thru_hole circle (at 5.08 0 0) (size 1.5 1.5) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  
+  # Silkscreen outline
+  (fp_line (start -6.35 -1.5) (end 6.35 -1.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+  (fp_line (start -6.35 1.5) (end 6.35 1.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+  (fp_line (start -6.35 -1.5) (end -6.35 1.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+  (fp_line (start 6.35 -1.5) (end 6.35 1.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+  
+  # Pin 1 indicator - square pad and marking
+  (fp_circle (center -5.08 -2.5) (end -4.58 -2.5) (stroke (width 0.12) (type solid)) (layer "F.SilkS"))
+  (fp_text user "1" (at -5.08 2.5 0) (layer "F.SilkS")
+    (effects (font (size 0.8 0.8) (thickness 0.12)))
+  )
+  
+  # Connector center line for alignment
+  (fp_line (start -6.35 0) (end 6.35 0) (stroke (width 0.05) (type solid)) (layer "F.Fab"))
+  
+  # Courtyard
+  (fp_rect (start -7.0 -2.0) (end 7.0 2.0) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+)
