@@ -16,9 +16,9 @@ created_at: "2025-06-09"
 **Time Spent: 3h**
 
 - I finished the PCB took a pretty long time relaxing though.
-
+  
   ![Screenshot 2025-06-09 194901.png](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-09%20194901.png)
-
+  
   ![Screenshot 2025-06-09 194925.png](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-09%20194925.png)
 
 **Time Spent: 3h**
@@ -32,3 +32,13 @@ created_at: "2025-06-09"
 - Started up Fusion 360 and time to start on the case.
 
 **Total Time Spent: 5h**
+
+# June 11th: Case
+
+- I finished a early prototype of the case which is good but ...
+
+- I need to wait till after I get the connectors to do final measurements had to kinda guess for right now
+
+- I got done I would call V0.1 so I would count it as a success
+
+![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-11-17-15-11-image.png)
