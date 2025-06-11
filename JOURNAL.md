@@ -44,3 +44,5 @@ created_at: "2025-06-09"
 - This concludes hardware for the main module on to software
 
 ![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-11%20171501.png)
+
+**Total Time Spent: 3h**
