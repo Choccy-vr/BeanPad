@@ -41,4 +41,4 @@ created_at: "2025-06-09"
 
 - I got done I would call V0.1 so I would count it as a success
 
-![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-11-17-15-11-image.png)
+![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-11%20171501.png)
