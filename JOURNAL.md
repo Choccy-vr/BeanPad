@@ -39,6 +39,8 @@ created_at: "2025-06-09"
 
 - I need to wait till after I get the connectors to do final measurements had to kinda guess for right now
 
-- I got done I would call V0.1 so I would count it as a success
+- I got done I would call V0.1 so I would count it as a success 
+
+- This concludes hardware for the main module on to software
 
 ![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-11%20171501.png)
