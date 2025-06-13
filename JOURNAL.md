@@ -46,3 +46,21 @@ created_at: "2025-06-09"
 ![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-11%20171501.png)
 
 **Total Time Spent: 3h**
+
+# June 12th & 13th: Firmware
+
+- I forgot to journal yesterday but I just researched the diffrent firmware options
+
+- I landed on kmk and circuit python might have to change it though.
+
+**Time Spent: 1.5h**
+
+### June 13th:
+
+- Started working on coding the firmware
+
+- I am abosuloutley loving kmk; circuit python not so much
+
+**Time Spent: 2.5h**
+
+**Total Time spent 4h**
