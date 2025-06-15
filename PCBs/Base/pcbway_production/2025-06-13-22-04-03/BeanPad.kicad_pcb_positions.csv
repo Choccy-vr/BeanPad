@@ -1,0 +1,9 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+170.5,-117.0,-90.0,top,J1,,,male_only_connector_5pin_Version3,Male_Pogo_Connector_01x05,tht
+164.14125,-91.61,180.0,top,J2,,,SSD1306-0.91-OLED-4pin-128x32,Display,tht
+93.5,-117.0,-90.0,top,J3,,,male_only_connector_5pin_Version3,Male_Pogo_Connector_01x05,tht
+132.0,-155.55,0.0,top,J5,,,male_only_connector_5pin_Version3,Male_Pogo_Connector_01x05,tht
+113.99,-106.895,0.0,top,SW1,,,SW_Cherry_MX_1.00u_PCB,SW_Push,tht
+134.54,-106.895,0.0,top,SW2,,,SW_Cherry_MX_1.00u_PCB,SW_Push,tht
+155.09,-106.895,0.0,top,SW3,,,SW_Cherry_MX_1.00u_PCB,SW_Push,tht
+111.91875,-90.4875,0.0,top,U1,,,XIAO-RP2040-DIP,XIAO-RP2040-DIP,smt

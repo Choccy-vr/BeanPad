@@ -1,0 +1,5 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+"J1, J3, J5",3,Male_Pogo_Connector_01x05,male_only_connector_5pin_Version3,,,,tht,
+J2,1,Display,SSD1306-0.91-OLED-4pin-128x32,,,,tht,"Generic connector, single row, 01x04, script generated"
+"SW1, SW2, SW3",3,SW_Push,SW_Cherry_MX_1.00u_PCB,,,,tht,"Push button switch, generic, two pins"
+U1,1,XIAO-RP2040-DIP,XIAO-RP2040-DIP,,,,smt,

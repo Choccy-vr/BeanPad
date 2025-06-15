@@ -64,3 +64,33 @@ created_at: "2025-06-09"
 **Time Spent: 2.5h**
 
 **Total Time spent 4h**
+
+# June 14th: Modules!
+
+- First I changed the Base Module PCB to rearrange and fix some things
+
+- I then Finished the Base Module CAD design and edited it to account for the new PCB
+
+- Forgot to mention that I researched and planned all the modules. Right now there will be 4 module:
+  
+  - Base Module (REQUIRED)
+  
+  - Knobs
+  
+  - Macro
+  
+  - Num-Pad
+
+- I then finished the Knobs Module
+
+- Overall great work day.
+
+**Total TIme spent: 6.5h**
+
+![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-14-23-17-12-image.png)
+
+![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-14-23-17-42-image.png)
+
+![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-14-23-18-29-image.png)
+
+![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-14-23-19-09-image.png)

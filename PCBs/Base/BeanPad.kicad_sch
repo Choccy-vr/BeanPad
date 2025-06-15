@@ -112,27 +112,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "DATA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at -5.08 -3.81 0)
 					(length 2.54)
-					(name "CLK"
+					(name "DATA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -148,7 +130,25 @@
 					)
 				)
 				(pin bidirectional line
-					(at 5.08 -6.35 180)
+					(at -5.08 -6.35 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -1.27 180)
 					(length 2.54)
 					(name "AUX"
 						(effects
@@ -157,7 +157,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -407,261 +407,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LED:SK6812MINI"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "SK6812MINI"
-				(at 1.27 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-				(at 2.54 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SK6812MINI_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "SK6812MINI_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SK6812MINI_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1798,10 +1543,6 @@
 		(uuid "a4947050-270d-4e10-98d2-bff0a0d30c1a")
 	)
 	(no_connect
-		(at 146.05 41.91)
-		(uuid "a70aa7fd-3aed-4368-a15e-b02b725566fa")
-	)
-	(no_connect
 		(at 111.76 102.87)
 		(uuid "d8a46620-0bac-4762-98a9-2a855c27818c")
 	)
@@ -2059,18 +1800,8 @@
 		)
 		(uuid "11cfeb49-1544-47c3-8010-7e0e943580e6")
 	)
-	(label "GPIO4"
-		(at 130.81 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "15c5c1dd-bcb2-4339-a5f5-d42173771aef")
-	)
 	(label "INT"
-		(at 257.81 107.95 0)
+		(at 257.81 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2090,7 +1821,7 @@
 		(uuid "26607fa5-210f-49d3-9000-662db2105039")
 	)
 	(label "INT"
-		(at 257.81 135.89 0)
+		(at 257.81 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2110,7 +1841,7 @@
 		(uuid "4b18693a-884b-4af6-bda0-c96eb256b1e0")
 	)
 	(label "GPIO28"
-		(at 52.07 106.68 0)
+		(at 52.07 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2120,7 +1851,7 @@
 		(uuid "4d3b9534-be05-4d8a-86a8-a2939f352377")
 	)
 	(label "SDA"
-		(at 247.65 130.81 180)
+		(at 247.65 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2140,7 +1871,7 @@
 		(uuid "60c2cff8-ef5c-4140-8b14-d430e83db84b")
 	)
 	(label "SDA"
-		(at 247.65 102.87 180)
+		(at 247.65 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2150,7 +1881,7 @@
 		(uuid "64de23df-a759-4b9a-84ba-db97ac74a2a3")
 	)
 	(label "GPIO26"
-		(at 52.07 80.01 0)
+		(at 52.07 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2160,7 +1891,7 @@
 		(uuid "6766bc52-5ce9-44e4-9af4-333a32a7429a")
 	)
 	(label "SCL"
-		(at 247.65 68.58 180)
+		(at 247.65 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2180,7 +1911,7 @@
 		(uuid "6eb2e3a9-a92c-4790-b615-2f796f442245")
 	)
 	(label "SCL"
-		(at 247.65 133.35 180)
+		(at 247.65 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2210,7 +1941,7 @@
 		(uuid "c156ca03-1ae5-404c-b49e-3db805d253be")
 	)
 	(label "SDA"
-		(at 247.65 66.04 180)
+		(at 247.65 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2220,7 +1951,7 @@
 		(uuid "ce7518ba-d14d-4581-8885-a66a9f1c5a51")
 	)
 	(label "SCL"
-		(at 247.65 105.41 180)
+		(at 247.65 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2230,7 +1961,7 @@
 		(uuid "eb1fa132-ae79-4f8c-b2b3-c6eb80fb285a")
 	)
 	(label "INT"
-		(at 257.81 71.12 0)
+		(at 257.81 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2295,7 +2026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Conn_Pogo:male_only_connector_5pin_Version3"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 252.73 76.2 0)
 			(effects
 				(font
@@ -2439,7 +2170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Conn_Pogo:male_only_connector_5pin_Version3"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 252.73 113.03 0)
 			(effects
 				(font
@@ -2893,72 +2624,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 138.43 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63e730c8-a35f-46f6-87e2-028ade9fe963")
-		(property "Reference" "#PWR010"
-			(at 138.43 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "733b5758-f219-4cfd-91c7-6ef03e81e029")
-		)
-		(instances
-			(project ""
-				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 165.1 87.63 270)
 		(unit 1)
@@ -3020,82 +2685,6 @@
 			(project ""
 				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 138.43 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94f095ff-9e92-40b9-b616-cf5f4dc3a0ce")
-		(property "Reference" "D1"
-			(at 151.13 35.4898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 151.13 38.0298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 139.7 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 140.97 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 138.43 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "74e51302-913c-425a-bae0-832df4f003b3")
-		)
-		(pin "3"
-			(uuid "81bcb43b-0575-4a02-adc2-f9eaaeab69b0")
-		)
-		(pin "1"
-			(uuid "487074f2-6a91-4eec-8028-f2899390e396")
-		)
-		(pin "4"
-			(uuid "33cdd3d4-a1c3-4ca7-9dbc-6249789abce0")
-		)
-		(instances
-			(project ""
-				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3539,7 +3128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Conn_Pogo:male_only_connector_5pin_Version3"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 252.73 140.97 0)
 			(effects
 				(font
@@ -3585,72 +3174,6 @@
 			(project "BeanPad"
 				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 138.43 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cba3a78c-6775-4627-a959-57b020b18c20")
-		(property "Reference" "#PWR09"
-			(at 138.43 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 138.43 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 138.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a4ae338-366c-49ab-9fd2-a6b2819e475f")
-		)
-		(instances
-			(project ""
-				(path "/0fada3d2-b91b-45d1-ab99-8eb3053f21b6"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)

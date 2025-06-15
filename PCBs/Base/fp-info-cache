@@ -1,4 +1,4 @@
-25669303007353719
+25671052504893354
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -45317,6 +45317,13 @@ male_only_connector
 0
 4
 4
+Connector_Pogo
+male_only_connector_5pin
+5-pin male pogo connector for modular macropad
+pogo connector modular
+0
+5
+5
 Connector_RJ
 RJ9_Evercom_5301-440xxx_Horizontal
 Evercom 5301-4P4C RJ9 receptacle, unshielded, https://datasheet.lcsc.com/lcsc/2207051802_EVERCOM-5301-4P4C_C3097715.pdf
