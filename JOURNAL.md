@@ -94,3 +94,15 @@ created_at: "2025-06-09"
 ![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-14%20231820.png)
 
 ![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-14%20231901.png)
+
+# June 15th: Almost Completed Firmware
+
+- I was getting a little bored with designing PCB and cases so I decided to work on the firmware
+
+- The Base Module is written in Circuit Python while the rest are written in Arduino (C++)
+
+- The Base Module handles the modules and its own buttons and screen while the other modules just handle themselves and send their action.
+
+- This part was pretty easy for me because coding is my specialty
+
+- I almost completed all of the Firmware except the Numpad Module

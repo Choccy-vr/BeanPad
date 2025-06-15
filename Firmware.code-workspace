@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "Firmware"
+		},
+		{
+			"name": "Knobs",
+			"path": "C:/Users/wante/Documents/PlatformIO/Projects/Knobs"
+		},
+		{
+			"name": "Macro",
+			"path": "Firmware/Macro"
+		},
+		{
+			"name": "NumPad",
+			"path": "Firmware/NumPad"
+		}
+	],
+	"settings": {}
+}
