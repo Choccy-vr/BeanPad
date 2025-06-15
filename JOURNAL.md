@@ -87,10 +87,10 @@ created_at: "2025-06-09"
 
 **Total TIme spent: 6.5h**
 
-![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-14-23-17-12-image.png)
+![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-14%20231655.png)
 
-![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-14-23-17-42-image.png)
+![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-14%20231734.png)
 
-![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-14-23-18-29-image.png)
+![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-14%20231820.png)
 
-![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-14-23-19-09-image.png)
+![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-14%20231901.png)
