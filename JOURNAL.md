@@ -109,7 +109,7 @@ created_at: "2025-06-09"
 
 **Total Time Spent: 6h**
 
-# June 16th: The Day I Have Been Waiting On
+# June 16th: Finish
 
 - **The BeanPad is offically done!!!!!!!**
 
@@ -127,14 +127,14 @@ created_at: "2025-06-09"
 
 - I finished all case designing
 
-![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-16-15-45-39-image.png)
+![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-16%20152040.png)
 
-![Screenshot 2025-06-16 152040.png](E:\Projects\BeanPad\Project%20Images\Screenshot%202025-06-16%20152040.png)
+![Screenshot 2025-06-16 152040.png](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-16%20154530.png)
 
-![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-16-15-47-32-image.png)
+![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-16%20154722.png)
 
-![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-16-15-48-34-image.png)
+![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-16%20154820.png)
 
-![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-16-15-49-40-image.png)
+![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-16%20154933.png)
 
 **Total Time Spent: 3.5h**
