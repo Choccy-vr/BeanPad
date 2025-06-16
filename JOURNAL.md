@@ -136,3 +136,5 @@ created_at: "2025-06-09"
 ![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-16-15-48-34-image.png)
 
 ![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-16-15-49-40-image.png)
+
+**Total Time Spent: 3.5h**
