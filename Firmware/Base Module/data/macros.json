@@ -3,6 +3,6 @@
         "base": ["MACRO:COPY", "MACRO:CUT","MACRO:PASTE"],
         "knobs": ["MEDIA:VOLUME_UP", "MEDIA:VOLUME_DOWN", "MEDIA:MUTE", "MEDIA:BRIGHTNESS_UP", "MEDIA:BRIGHTNESS_DOWN", "MEDIA_STOP"],
         "macros": ["MACRO:UNDO", "INSERT", "END", "MACRO:REDO"],
-        "numpad": ["ENTER", "MACRO:SELECT_ALL"]
+        "numpad": ["7","8","9","4","5","6","1","2","3","ENTER", "0", "MACRO:SELECT_ALL"]
     }
 ]

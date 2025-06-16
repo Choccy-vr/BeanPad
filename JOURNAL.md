@@ -106,3 +106,33 @@ created_at: "2025-06-09"
 - This part was pretty easy for me because coding is my specialty
 
 - I almost completed all of the Firmware except the Numpad Module
+
+**Total Time Spent: 6h**
+
+# June 16th: The Day I Have Been Waiting On
+
+- **The BeanPad is offically done!!!!!!!**
+
+- That is right I have sumbited BeanPad and waiting for it to be approved 
+
+- Lets get pass what I did today it was alot
+
+- I signed up for Summer of Making which is pretty cool
+
+- I installed all of the tracking stuff still having problems with it though.
+
+- I got rid of the resistors on the Knobs Module because I don't need them ty @StrawberryPuding and @luteron6 on Slack
+
+- I finished the firmware for the numpad and as a result done all of the firmware
+
+- I finished all case designing
+
+![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-16-15-45-39-image.png)
+
+![Screenshot 2025-06-16 152040.png](E:\Projects\BeanPad\Project%20Images\Screenshot%202025-06-16%20152040.png)
+
+![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-16-15-47-32-image.png)
+
+![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-16-15-48-34-image.png)
+
+![](C:\Users\wante\AppData\Roaming\marktext\images\2025-06-16-15-49-40-image.png)
