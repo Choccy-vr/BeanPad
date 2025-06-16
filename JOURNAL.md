@@ -4,7 +4,7 @@ author: "Ginobeano"
 description: "A modular smart macropad"
 created_at: "2025-06-09"
 ---
-
+# Total Time Spent: 35h
 # June 09: Started PCB & Project
 
 - Decided on using an RP2040 might change it down the road to add buletooth would have to do more research on it though.
@@ -137,4 +137,4 @@ created_at: "2025-06-09"
 
 ![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-16%20154933.png)
 
-**Total Time Spent: 3.5h**
+**Total Time Spent: 4.5h**
