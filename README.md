@@ -8,13 +8,21 @@ I also built this in case my other project doesn't get finished in time for unde
 
 ### PCB
 
-![Screenshot 2025-06-09 151724.png](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-09%20151724.png)
+![Screenshot 2025-06-09 151724.png](https://github.com/Choccy-vr/BeanPad/blob/main/PCBs/Pictures/BeanPad-Base.png)
 
-![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-14%20231901.png)
+![](https://github.com/Choccy-vr/BeanPad/blob/main/PCBs/Pictures/BeanPad-Base-Bottom.png)
 
-![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-16%20154820.png)
+![](https://github.com/Choccy-vr/BeanPad/blob/main/PCBs/Pictures/Knobs.png)
 
-![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-16%20154933.png)
+![](https://github.com/Choccy-vr/BeanPad/blob/main/PCBs/Pictures/Knobs-Bottom.png)
+
+![](https://github.com/Choccy-vr/BeanPad/blob/main/PCBs/Pictures/Macro.png)
+
+![](https://github.com/Choccy-vr/BeanPad/blob/main/PCBs/Pictures/Macro-Bottom.png)
+
+![](https://github.com/Choccy-vr/BeanPad/blob/main/PCBs/Pictures/Num-Pad.png)
+
+![](https://github.com/Choccy-vr/BeanPad/blob/main/PCBs/Pictures/Num-Pad-Bottom.png)
 
 ### Case
 
