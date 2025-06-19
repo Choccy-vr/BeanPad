@@ -1,10 +1,14 @@
 ---
+
 title: "BeanPad"
 author: "Ginobeano"
 description: "A modular smart macropad"
 created_at: "2025-06-09"
+
 ---
-# Total Time Spent: 35h
+
+# Total Time Spent: 37h
+
 # June 09: Started PCB & Project
 
 - Decided on using an RP2040 might change it down the road to add buletooth would have to do more research on it though.
@@ -138,3 +142,11 @@ created_at: "2025-06-09"
 ![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-16%20154933.png)
 
 **Total Time Spent: 4.5h**
+
+# June 19th: Modify
+
+- I had to fix up to Cad Models it looks a lot better now hopefuly the pogo pin connectors still fit. They should fingers crossed.
+
+- I was also missing the Quanity and Price from my BOM so gotta fix that.
+
+**Total Time Spent: 2h**
