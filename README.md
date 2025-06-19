@@ -6,23 +6,31 @@ I built this originally as a buffer for my main project but it has since taken o
 I also built this in case my other project doesn't get finished in time for undercity.
 ## Images
 
+### PCB
+
 ![Screenshot 2025-06-09 151724.png](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-09%20151724.png)
 
-![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-14%20231734.png)
-
-![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-14%20231820.png)
-
 ![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-14%20231901.png)
-
-![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-16%20152040.png)
-
-![Screenshot 2025-06-16 152040.png](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-16%20154530.png)
-
-![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-16%20154722.png)
 
 ![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-16%20154820.png)
 
 ![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-16%20154933.png)
+
+### Case
+
+
+
+![Screenshot 2025-06-16 152040.png](https://github.com/Choccy-vr/BeanPad/blob/main/CAD/Base/BeanPad.png)
+
+![](https://github.com/Choccy-vr/BeanPad/blob/main/CAD/Knobs/BeanPad%20-%20Knobs.png)
+
+![](https://github.com/Choccy-vr/BeanPad/blob/main/CAD/Macro/BeanPad%20-%20Macro.png)
+
+![](https://github.com/Choccy-vr/BeanPad/blob/main/CAD/NumPad/BeanPad%20-%20NumPad.png)
+
+### Firmware (Really nothing to see here)
+
+![](https://github.com/Choccy-vr/BeanPad/blob/main/Project%20Images/Screenshot%202025-06-16%20152040.png)
 
 ## 
 |Item:             |Quanity: (If Items come in sets amount of sets)|Source:                                                                                                                                                                                                                                                                                                                                                                                                                                   |Cost:  |Total                                |
