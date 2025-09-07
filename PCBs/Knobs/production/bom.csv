@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"J1, J2, J3, J4",PinHeader_1x05_P2.54mm_Vertical,4,Male_Pogo_Connector_01x05,
+"SW1, SW2",RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm,2,RotaryEncoder_Switch,
+U1,XIAO-RP2040-DIP,1,XIAO-RP2040-DIP,

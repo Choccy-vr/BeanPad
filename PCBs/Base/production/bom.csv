@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"J1, J3, J5",male_only_connector_5pin_Version3,3,Male_Pogo_Connector_01x05,
+J2,SSD1306-0.91-OLED-4pin-128x32,1,Display,
+"SW1, SW2, SW3",SW_Cherry_MX_1.00u_PCB,3,SW_Push,
+U1,XIAO-RP2040-DIP,1,XIAO-RP2040-DIP,

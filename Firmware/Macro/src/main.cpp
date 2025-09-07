@@ -2,14 +2,14 @@
 #include <Wire.h>
 #include <ezButton.h>
 //buttons
-#define BUTTON_PIN_1 1 // pin for the 1st button
-#define BUTTON_PIN_2 2 // pin for the 2nd button
-#define BUTTON_PIN_3 4 // pin for the 3rd button
-#define BUTTON_PIN_4 3 // pin for the button
+#define BUTTON_PIN_1 D7 // pin for the 1st button
+#define BUTTON_PIN_2 D8 // pin for the 2nd button
+#define BUTTON_PIN_3 D9 // pin for the 3rd button
+#define BUTTON_PIN_4 D10 // pin for the 4th button
 
 // i2c module
 #define I2C_ADDRESS 0x21 // I2C address for the module
-#define INT_PIN 29 // Interrupt pin
+#define INT_PIN D3 // Interrupt pin
 //keymap
 #define MAX_KEYS 4
 uint8_t keymap[MAX_KEYS];
@@ -20,9 +20,13 @@ ezButton Button_1(BUTTON_PIN_1);
 ezButton Button_2(BUTTON_PIN_2);
 ezButton Button_3(BUTTON_PIN_3);
 ezButton Button_4(BUTTON_PIN_4);
+
+int Active_key = 0;
+bool action_available = false;
 // put function declarations here:
-void requestKeymap();
+void receiveKeymap(int bytes);
 void sendAction(int key);
+void requestHandler();
 void setup() {
   Wire.begin(I2C_ADDRESS);
   Serial.begin(9600);
@@ -36,7 +40,8 @@ void setup() {
 
   // Request keymap
   digitalWrite(INT_PIN, LOW); // Pull the INT pin down indicating a request or action
-  Wire.onRequest(requestKeymap);
+  Wire.onReceive(receiveKeymap);
+  Wire.onRequest(requestHandler);
 
 }
 
@@ -60,8 +65,7 @@ void loop() {
     sendAction(keymap[3]); // Send action for the 4th key
   }
 }
-// put function definitions here:
-void requestKeymap(int bytes) {
+void receiveKeymap(int bytes) {
   Serial.print("Received ");
   Serial.print(bytes);
   Serial.println(" bytes");
@@ -77,7 +81,7 @@ void requestKeymap(int bytes) {
     Serial.println(keymap[keymap_size]);
     keymap_size++;
   }
-  
+  digitalWrite(INT_PIN, HIGH);
   // Clear any remaining bytes
   while (Wire.available()) {
     Wire.read();
@@ -88,19 +92,20 @@ void requestKeymap(int bytes) {
   Serial.print(keymap_size);
   Serial.println(" keys");
 }
-void sendAction(int key) {
-  if (key < 0 || key >= keymap_size) {
-    Serial.println("Invalid key index");
-    return;
+void requestHandler() {
+  if (action_available) {
+    Wire.write(Active_key); // Send the action
+    action_available = false; // Clear flag after sending
+    digitalWrite(INT_PIN, HIGH); // Reset INT pin
+  } else {
+    Wire.write(0); // No action
   }
-  
+}
+void sendAction(int key) {
   // Send the action corresponding to the key
   Serial.print("Sending action for key: ");
   Serial.println(keymap[key]);
-  
-  // Here you can implement the actual sending logic, e.g., via I2C or Serial
-  digitalWrite(INT_PIN, LOW); // Pull the INT pin down to indicate an action
-  Wire.beginTransmission(I2C_ADDRESS);
-  Wire.write(keymap[key]);
-  Wire.endTransmission();
+  Active_key = key;
+  action_available = true; // Set flag to indicate new action
+  digitalWrite(INT_PIN, LOW); // Signal to master
 }
